@@ -1,0 +1,302 @@
+a{
+    text-decoration: none;
+}
+.col2_mobile{
+    display: none;
+}
+body{
+    background-color: #f7f8fd;
+    padding: 20px ;
+}
+.first_line{
+    display: flex;
+    justify-content: space-between;
+}
+.button_edit_feedback{
+    background-color: rgba(0, 0, 255, 0.471);
+    padding: 10px;
+    border-radius: 10px;
+}
+.button_edit_feedback .feedback{
+    font-weight: 700;
+}
+.button_edit_feedback a{
+    color: white;
+}
+.icone_goback svg{
+    color: blue;
+}
+.icone_goback a {
+    font-weight: 700;
+}
+
+.border1-2 .boutton-Enhancement{
+    background-color:#f2f4ff;
+    padding: 10px;
+    border-radius: 10px; 
+    width: fit-content;
+     
+   
+}
+.boutton-Enhancement a{
+    text-decoration: none;
+    color: blue;
+}
+
+.border1-2 .boutton-Bug{
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 10px; 
+    width: fit-content;
+   
+}
+
+.border1-2 .boutton-Feature{
+    background-color: gainsboro;    
+    padding: 10px;
+    border-radius: 10px;    
+    width: fit-content;
+   
+    
+   
+}
+
+
+
+ .border1-2{
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+    
+    padding: 25px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+}
+ .likes{
+    padding: 10px;
+    background-color: #f2f4ff;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #3a4374;
+    display: flex;
+}
+
+
+.likes svg{
+    color: #4661e6;
+}
+.likes span{
+    margin: 0 auto;
+}
+.container_likes{
+    display: flex;
+    height: min-content;
+}
+.container_likes .likes{
+    display: flex;
+    flex-direction: column;
+}
+.border1-2 .col1{
+    
+     background-color: rgba(0, 0, 255, 0.384);
+   width: fit-content;
+   margin-bottom: 30px;
+   display: grid;
+   grid-template-rows: auto auto;
+   padding: 5px;
+    border-radius: 10px;
+}
+.col2 h3{
+    color: #3a4374;
+    font-size: 1.5em;
+   
+
+}
+.col2 p{
+    color: #647196;
+
+}
+.col3{
+    display: flex;
+    margin: auto;
+}
+.col3 p{
+    color: black;
+    margin: auto;
+}
+
+
+.image_name_reply img{
+    border-radius: 100px;
+    width: 100%;
+   
+}
+
+
+.image_name_reply{
+
+display: flex;
+justify-content: space-between;
+
+}
+.image_name_reply a{
+    text-decoration: none;
+}
+.image_nameuser{
+    display:flex;  
+    justify-content: space-between;
+      
+}
+
+.name_user p{
+    color: #647196;
+    margin: 0;
+    font-weight: 400;
+
+}
+.name_user h4{
+    margin: 0;
+}
+.name_user{
+    margin: auto 0;
+}
+.comments{
+    background-color: white;
+    padding: 25px;
+    margin-top: 10px;
+}
+.old_comments{
+    margin-left: 70px;
+    color: #647196;
+}
+.old_comments span{
+    color: #ad1fea;
+
+}
+.old_comments p{
+    font-weight: 400;
+}
+._225characters_left p{
+    color: #647196;
+
+}
+.post_reply{
+    margin: 0 auto;
+    background-color: #8f35e3;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+.post_reply a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+.write{
+    background-color: #f2f7ff;
+    padding: 25px;
+    margin-left: 70px;
+    border: solid #919cdc 1px;
+}
+.write p{
+    color:#647196    ;
+}
+.write_comment{
+    display: grid;
+    grid-template-columns: 85% auto;
+}
+.seconde_comments{
+    margin-top: 20px;
+}
+.third_comments{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.forth_comments{
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.post_Comment a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.post_Comment{
+    background-color: #8f35e3;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto 0;
+    
+}
+
+.add_comments{
+    background-color: white;
+    margin-top: 20px;
+    padding: 25px;
+}
+.add_comments h3{
+    color: #3a4374;
+}
+._4comments h3{
+    color: #3a4374;
+}
+
+.character_post{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.mobile{
+    display: none;
+}
+@media only screen and (max-width: 1000px){
+    .write_comment{
+        display: none;
+
+    }
+ 
+}
+@media only screen and (max-width : 800px) {
+
+.col1_mobile{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.384);
+    width: fit-content;
+    margin-bottom: 30px;
+    padding: 5px;
+     border-radius: 10px;
+}
+.col3_mobile {
+    display: flex;
+    margin: auto 0;
+}
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.col1{
+    display: none;
+
+}
+.col3{
+    display: none;
+}
+.tablet_desktop{
+    display: none;
+}
+.col2_mobile{
+    display: flex;
+}
+.grid{
+    display: block;
+}
+}
